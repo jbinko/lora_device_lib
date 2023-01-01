@@ -10,7 +10,7 @@ pico_sdk_init()
 
 add_executable(lorawan_rfm95w
   main.c
-  device.c
+  chip.c
   ../../../src/ldl_aes.c
   ../../../src/ldl_cmac.c
   ../../../src/ldl_ctr.c
